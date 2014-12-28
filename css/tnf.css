@@ -1,0 +1,106 @@
+/* Global styles */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Button Styles */
+@font-face {
+  font-family: grutchshaded;
+  src: url('../fonts/GrutchShaded.ttf');
+}
+
+@font-face {
+  font-family: lateron;
+  src: url('../fonts/lateron.ttf');
+}
+
+.grutchshaded {
+  font-family: grutchshaded;
+}
+
+.lateron {
+  font-family: lateron;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+}
+
+.header, .projects, .about, .consulting {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    */
+}
+
+/* Sections */
+
+.about, .projects, .consulting {
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+a:active,
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.subtitle {
+    font-size:2em;
+}
+
+.block {
+    display: block;
+}
+
+.ilb {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.summary {
+    margin-bottom: 15px;
+}
+
+.summary p {
+    margin:0px;
