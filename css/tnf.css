@@ -6,6 +6,10 @@ body {
     background-color:#f7f7f7;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 /* Custom Button Styles */
 @font-face {
   font-family: grutchshaded;
@@ -119,3 +123,14 @@ h1 {
 .summary p {
     margin:0px;
     font-size:1.5em;
+}
+
+@media (max-width: 767px) {                                                         
+    body {
+        font-size:12px;
+    }
+    .text-vertical-center h1 {
+        font-size:3em;
+    }
+} 
+    
