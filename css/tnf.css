@@ -4,6 +4,7 @@ body {
     width: 100%;
     height: 100%;
     background-color:#f7f7f7;
+    font-size:15px;
 }
 
 h1 {
@@ -27,7 +28,6 @@ h1 {
 
 .lateron {
   font-family: lateron;
-  font-weight: 700;
 }
 
 .strong {
@@ -128,10 +128,16 @@ h1 {
 
 @media (max-width: 767px) {                                                         
     body {
-        font-size:12px;
+        font-size:18px;
     }
     .text-vertical-center h1 {
         font-size:3em;
+    }
+    .lateron {
+        font-weight: 700;
+    }
+    a, a:active, a:hover, a:focus {
+        text-decoration: underline;
     }
 } 
     
