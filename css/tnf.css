@@ -18,7 +18,8 @@ h1 {
 
 @font-face {
   font-family: lateron;
-  src: url('../fonts/lateron.ttf');
+  src: url('../fonts/BDParisDemo.ttf');
+  /*src: url('../fonts/lateron.ttf');*/
 }
 
 .grutchshaded {
