@@ -17,21 +17,16 @@ h1 {
   src: url('../fonts/GrutchShaded.ttf');
 }
 
-@font-face {
-  font-family: lateron;
-  src: url('../fonts/lateron.ttf');
-}
-
 .grutchshaded {
   font-family: grutchshaded;
 }
 
 .lateron {
-  font-family: lateron;
+    font-family: 'courier new'
 }
 
 .strong {
-  font-weight: 900;
+  font-weight: normal;
 }
 
 .normal {
